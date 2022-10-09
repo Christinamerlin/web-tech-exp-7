@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    background-color: grey;
+}
+#RaceTrack {
+    height: 330px;
+    border-right: dashed10pxwhite;
+    box-sizing: border-box;
+    margin: 40px0;
+}
+.Car {
+    display: block;
+    position: relative;
+}
+#Car1 {
+    top: 20px;
+}
+#Car2 {
+    top: 150px;
+}
+#RaceInfoCntnr {
+    width: 80%;
+    margin: 40pxauto0;
+    background: #333;
+    height: 200px;
+}
+#RaceInfoCntnrh2 {
+    color: white;
+    text-transform: uppercase;
+    border-bottom: solid1pxwhite;
+    
+}
+.RaceInfo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    float: left;
+}
+.RaceInfospan {
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+}
+#RaceInfo1 {
+    color: pink;
+}
+#RaceInfo2 {
+    color: blue;
+}
+input[type="button"] {
+    background: grey;
+    color: white;
+    padding: 10px20px;
+    border: solid1px#444;
+}
+input#Reset {
+    background: grey;
+    color: #444;
+}
+.ClearFix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
